@@ -33,6 +33,8 @@
 	ci = commit
 	#git status alias
 	st = status
+	#git unstage alias
+	unstage = reset HEAD --
 
 [apply]
 	# Detect whitespace errors when applying a patch
@@ -47,7 +49,7 @@
 
 [color]
 	# Use colors in Git commands that are capable of colored output when outputting to the terminal
-	ui = auto
+	ui = true
 [color "branch"]
 	current = yellow reverse
 	local = yellow
